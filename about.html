@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+    </div>
+
+
+    <div class="small-container">
+        <header>
+            <h2>About Us</h2>
+        </header>
+        <section>
+            <h3>Welcome to RedStore</h3>
+            <p>Your ultimate destination for high-quality sportswear designed to elevate your active lifestyle. At RedStore, we believe that the right apparel can make a world of difference in your performance and comfort, whether you're hitting the gym, running a marathon, or simply staying active.</p>
+        </section>
+        <section>
+            <h3>Our Mission</h3>
+            <p>Our mission is to provide top-notch sportswear that combines style, comfort, and functionality. We are committed to offering products that help you look great, feel great, and perform at your best.</p>
+        </section>
+        <section>
+            <h3>What We Offer</h3>
+            <ul>
+                <li><strong>Performance T-Shirts:</strong> Breathable, moisture-wicking fabrics that keep you cool and comfortable during intense workouts.</li>
+                <li><strong>Running Shoes:</strong> Designed for optimal support and cushioning, perfect for every stride.</li>
+                <li><strong>Athletic Trousers:</strong> Flexible and durable, providing the perfect balance of comfort and performance.</li>
+                <li><strong>Accessories:</strong> From socks to headbands, smartwatches to headphones, we have everything you need to complete your athletic wardrobe.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Quality and Innovation</h3>
+            <p>At RedStore, we are dedicated to using the latest technology and the highest quality materials to create sportswear that meets the demands of modern athletes. Our products are rigorously tested to ensure they provide the durability and performance you need to achieve your fitness goals.</p>
+        </section>
+        <section>
+            <h3>Our Story</h3>
+            <p>RedStore was born out of a passion for fitness and a desire to provide athletes with apparel that supports their active lifestyles. We understand the challenges and triumphs of staying fit because we share them. That's why every product we offer is designed with you in mind.</p>
+        </section>
+        <section>
+            <h3>Join the RedStore Community</h3>
+            <p>We invite you to join the RedStore community and experience the difference that high-quality sportswear can make. Follow us on social media, sign up for our newsletter, and be the first to know about new arrivals, special offers, and fitness tips.</p>
+        </section>
+        <footer>
+            <p>Thank you for choosing RedStore. Let's conquer our fitness goals together!</p>
+        </footer>
+    </div>
+
+
+    <!-- ----- footer --------- -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png">
+                        <img src="./images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo-white.png">
+                    <p>Our Purpose is to Sustainably make the Pleasure and Benifits of Sports Accessible to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - RedStore</p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function  menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
